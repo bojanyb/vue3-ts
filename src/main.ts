@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from './vApp21.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.mount('#app')
+
+
+app.provide('currentUser', { name : 'vi' })
